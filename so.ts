@@ -17,6 +17,10 @@ class Dog extends Animal {
     speak() {
         console.log(`${this.name} barks!`);
     }
+
+    bark() {
+        speak()
+    }
 }
 
 const myDog: Dog = new Dog("Rex");  // Error 2: Missing breed argument in constructor

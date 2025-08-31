@@ -7,5 +7,6 @@ new test
 new
 
 again
+now
 
 and again

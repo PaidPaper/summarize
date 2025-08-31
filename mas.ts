@@ -1,6 +1,5 @@
 // mockServices.ts
 
-
 // Mocking an interface for a Service
 interface Service {
   id: number;

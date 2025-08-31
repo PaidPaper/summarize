@@ -1,5 +1,6 @@
 // mock.ts
 
+
 // Mocking an interface for a User
 interface User {
   id: number;

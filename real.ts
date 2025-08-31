@@ -1,5 +1,6 @@
 // mockFile3.ts
 
+
 // Error 1: Using undefined variable before initialization
 let name: string;
 console.log(name);  // Error: Variable 'name' is used before being assigned
@@ -25,7 +26,7 @@ const greeting = greet('Alice');
 
 // Error 6: Using a class instance incorrectly
 class Person {
-  constructor(public name: string, public age: number) {}
+  constructor(public name: string, public age: number) { }
 }
 
 let person = new Person('Alice', 25);

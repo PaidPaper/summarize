@@ -1,5 +1,6 @@
 // anotherMock.ts
 
+
 // Mocking an interface for a Product
 interface Product {
   id: number;
@@ -46,4 +47,4 @@ export function fetchProducts(): Promise<Product[]> {
   const product = findProductByName(products, 'Laptop');
   console.log('Product Found by Name:', product);
 })();
- 
+

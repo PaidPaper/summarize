@@ -1,5 +1,6 @@
 // mockFile5.ts
 
+
 // Error 1: Using a variable before it's initialized
 let userName: string;
 console.log(userName);  // Error: Variable 'userName' is used before being assigned
@@ -40,7 +41,7 @@ async function fetchData() {
 
 // Error 8: Typing error in class constructor
 class Car {
-  constructor(public make: string, public year: number) {}
+  constructor(public make: string, public year: number) { }
 
   displayInfo() {
     console.log(`${this.make} - ${this.year}`);

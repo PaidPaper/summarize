@@ -2,6 +2,7 @@
 
 import { SomeUndefinedClass } from './somewhere';  // Error: module not found
 
+
 // Error 1: Missing type annotation
 let name = "John";
 

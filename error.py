@@ -3,6 +3,7 @@
 import os
 import sys
 
+
 # Function to welcome user
 def welcome_user(name):
     print("Welcome " + name)  # Missing closing parenthesis

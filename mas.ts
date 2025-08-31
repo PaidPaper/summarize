@@ -9,6 +9,7 @@ interface Service {
   isActive: boolean;
 }
 
+
 // Mock data for services
 const mockServices: Service[] = [
   { id: 1, name: 'Consulting', duration: 60, isActive: true },

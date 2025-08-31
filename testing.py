@@ -11,6 +11,7 @@ let numbers: number[] = [1, 2, 3, "four"];  // Error: Type 'string' is not assig
 function subtract(a: number, b: number) {
   return a - b;
 }
+
 let difference = subtract(10, "five");  // Error: Argument of type 'string' is not assignable to parameter of type 'number'
 
 // Error 4: Trying to access property on an undefined object

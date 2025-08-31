@@ -9,6 +9,7 @@ interface Product {
   isInStock: boolean;
 }
 
+
 // Mocking data for product testing
 const mockProducts: Product[] = [
   { id: 1, name: 'Laptop', price: 1200, isInStock: true },

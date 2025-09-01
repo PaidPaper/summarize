@@ -1,12 +1,14 @@
 // fakeFile.ts
 
+
 class Animal {
-    constructor(public name: string) {}
+    constructor(public name: string) { }
 
     speak() {
         console.log(`${this.name} makes a noise.`);
     }
 }
+
 
 class Dog extends Animal {
     constructor(name: string, public breed: string) {

@@ -8,6 +8,7 @@ interface User {
   isActive: boolean;
 }
 
+
 // Mocking data for testing
 const mockUsers: User[] = [
   { id: 1, name: 'Alice Johnson', email: 'alice@example.com', isActive: true },

@@ -1,5 +1,6 @@
 // mockServices.ts
 
+
 // Mocking an interface for a Service
 interface Service {
   id: number;
@@ -7,6 +8,7 @@ interface Service {
   duration: number; // in minutes
   isActive: boolean;
 }
+
 
 // Mock data for services
 const mockServices: Service[] = [

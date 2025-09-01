@@ -1,5 +1,7 @@
 // mockFile2.ts
 
+
+
 // Error 1: Incorrectly importing non-existent module
 import { NonExistentFunction } from 'someModule';  // Error: Module 'someModule' has no exported member 'NonExistentFunction'
 

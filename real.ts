@@ -17,6 +17,16 @@ function multiply(x: number, y: number): number {
 }
 let result = multiply(2, '3');  // Error: Argument of type 'string' is not assignable to parameter of type 'number'
 
+function divide(x: number, y: number): number {
+  return x / y;
+}
+let result2 = divide(2, '3');  // Error: Argument of type 'string' is not assignable to parameter of type 'number'
+
+function subtract(x: number, y: number): number {
+  return x - y;
+}
+let result3 = subtract(2, '3');  // Error: Argument of type 'string' is not assignable to parameter of type 'number'
+
 // Error 5: Missing return type in a function
 function greet(name) {  // Error: Function lacks return type annotation
   return `Hello, ${name}`;
@@ -25,7 +35,7 @@ const greeting = greet('Alice');
 
 // Error 6: Using a class instance incorrectly
 class Person {
-  constructor(public name: string, public age: number) {}
+  constructor(public name: string, public age: number) { }
 }
 
 let person = new Person('Alice', 25);

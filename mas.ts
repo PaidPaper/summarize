@@ -21,6 +21,10 @@ export function getActiveServices(services: Service[]): Service[] {
   return services.filter(service => service.isActive);
 }
 
+export function getInactiveServices(services: Service[]): Service[] {
+  return services.filter(service => !service.isActive);
+}
+
 // Function to find a service by ID
 export function findServiceById(services: Service[], id: number): Service | undefined {
   return services.find(service => service.id === id);
@@ -46,3 +50,13 @@ export function fetchServices(): Promise<Service[]> {
   const service = findServiceById(services, 1);
   console.log('Service Found by ID:', service);
 })();
+
+function findServiceByName(services: Service[], name: string): Service | undefined {
+  return services.find(service => service.name === name);
+}
+
+function getServiceByName(services: Service[], name: string): Service | undefined {
+  return services.find(service => service.name === name);
+}
+
+function getServiceById(services: Service[], id: number): Service | undefined {

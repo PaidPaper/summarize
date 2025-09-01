@@ -10,6 +10,7 @@ let age: number = "25"; // Error: Type 'string' is not assignable to type 'numbe
 
 // Error 3: Invalid method in object
 const person = {
+  
   name: "Alice",
   age: 30,
   greet: () => {

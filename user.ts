@@ -14,7 +14,11 @@ function divide(a: number, b: number): string {  // Error: Function signature sh
 }
 
 // Error 4: Using an array incorrectly
+
+
 let arr = [1, 2, 3];
+
+
 arr.push('4');  // Error: Argument of type 'string' is not assignable to parameter of type 'number'
 
 // Error 5: Undefined variable used in template string

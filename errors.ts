@@ -48,3 +48,11 @@ const [x, y]: [number, string] = [10, 20];  // Error: Type 'number' is not assig
 // Error 10: Using non-existent method
 let arr: number[] = [1, 2, 3];
 arr.add(4);  // Error: Property 'add' does not exist on type 'number[]'
+
+// Error 11: Using non-existent property in object
+const obj = { name: "John" };
+obj.age.toString();  // Error: Property 'age' does not exist on type 'object'
+
+// Error 12: Using non-existent method in object
+const obj2 = { name: "John" };
+obj2.greet();  // Error: Property 'greet' does not exist on type 'object'

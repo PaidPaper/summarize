@@ -7,6 +7,7 @@ console.log(name);  // Error: Variable 'name' is used before being assigned
 // Error 2: Incorrect array type
 let numbers: number[] = [1, 2, 3, '4'];  // Error: Type 'string' is not assignable to type 'number'
 
+
 // Error 3: Object destructuring with incorrect type
 const user = { name: 'John', age: 30 };
 const { name, age, isAdmin }: { name: string, age: number, isAdmin: boolean } = user;  // Error: Property 'isAdmin' is missing in type '{ name: string; age: number; }'
@@ -25,7 +26,7 @@ const greeting = greet('Alice');
 
 // Error 6: Using a class instance incorrectly
 class Person {
-  constructor(public name: string, public age: number) {}
+  constructor(public name: string, public age: number) { }
 }
 
 let person = new Person('Alice', 25);

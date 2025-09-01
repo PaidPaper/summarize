@@ -7,3 +7,5 @@ function greet(name: string): string {
 // Example usage
 const userName = 'Alice';
 console.log(greet(userName)); // Output: Hello, Alice!
+
+

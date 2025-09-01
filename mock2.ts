@@ -8,6 +8,7 @@ interface Product {
   isInStock: boolean;
 }
 
+
 // Mocking data for product testing
 const mockProducts: Product[] = [
   { id: 1, name: 'Laptop', price: 1200, isInStock: true },
@@ -46,4 +47,4 @@ export function fetchProducts(): Promise<Product[]> {
   const product = findProductByName(products, 'Laptop');
   console.log('Product Found by Name:', product);
 })();
- 
+

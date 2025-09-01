@@ -67,6 +67,8 @@ class Car {
   }
 }
 
+
+
 let myCar = new Car("Toyota", "2021");  // Error: Argument of type 'string' is not assignable to parameter of type 'number'
 
 // Error 9: Object property access on undefined

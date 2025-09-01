@@ -12,6 +12,8 @@ test
 
 
 
+
+
 // Error 1: Using a variable before it's initialized
 
 

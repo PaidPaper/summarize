@@ -9,6 +9,8 @@
 // Error 1: Using a variable before it's initialized
 
 
+
+
 let userName: string;
 console.log(userName);  // Error: Variable 'userName' is used before being assigned
 

@@ -14,6 +14,8 @@ test
 
 
 
+
+
 let userName: string;
 console.log(userName);  // Error: Variable 'userName' is used before being assigned
 

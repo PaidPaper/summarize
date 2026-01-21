@@ -6,3 +6,5 @@ new
 test
 
 another one
+
+commit 2

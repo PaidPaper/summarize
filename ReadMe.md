@@ -44,3 +44,7 @@ test
 
 
 test
+
+## Slack card verification (task-260)
+
+This paragraph exists only to open a real pull request for the Lit Factory Slack root-card verification.

@@ -44,3 +44,5 @@ test
 
 
 test
+
+## Slack card verification, second PR (task-260)

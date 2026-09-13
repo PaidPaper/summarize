@@ -46,3 +46,5 @@ test
 test
 
 ## Slack card verification, second PR (task-260)
+
+Verification note for task-334 (2026-09-13T16:39:27Z).

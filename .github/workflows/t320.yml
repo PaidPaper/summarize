@@ -1,0 +1,11 @@
+name: t320
+on:
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: fail on t320 branches so the PR gets a check-suite change request
+        run: |
+          if [[ "${{ github.head_ref }}" == t320* ]]; then echo "intentional failure"; exit 1; fi
+          echo ok
